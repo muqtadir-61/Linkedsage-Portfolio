@@ -3,7 +3,19 @@ section.home-partners {
 }
 main.main {
   padding-bottom: 0 !important;
+  justify-content: center !important;
+  /* display: flex !important; */
 }
 section.our-client {
   margin-bottom: 80px !important;
+}
+.owl-carousel .owl-stage {
+  display: flex !important;
+  align-items: center !important;
+}
+
+.row.partners {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }

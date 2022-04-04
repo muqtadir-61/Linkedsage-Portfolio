@@ -120,7 +120,7 @@ blockquote {
   background: #002d92;
 }
 .btn-default {
-  background: #ffda44;
+  background: #;
   color: #4c443a;
 }
 .btn-default:hover {
@@ -414,6 +414,7 @@ li.dropdown i.fa.dropdown-toggle {
     -moz-transition: 0.5s ease all;
     -ms-transition: 0.5s ease all;
     transition: 0.5s ease all;
+    align-items: center;
   }
   .navbar-collapse.collapse {
     display: none !important;
@@ -1021,7 +1022,7 @@ section.home-stats {
   }
   .row.services > div:last-child {
     margin-bottom: 0;
-  }
+  }.btn
   .row.services-other > div {
     margin-bottom: 45px;
   }
@@ -1510,9 +1511,12 @@ section.home-partners h2.title-2 {
   align-items: center;
   /* line-height: 100px; */
   display: flex;
+  justify-content: center;
   /* margin: 10px 0; */
 }
 .owl-carousel .owl-item img {
+  
+
   width: auto;
   display: inline-block;
 }
@@ -1696,13 +1700,13 @@ ul.download-list li span {
 }
 .contact-box {
   padding: 30px 40px;
-  background: #ffda44;
+  background: #f56624;
 }
 .pre-footer > div:nth-child(2n) .contact-box {
-  background: #ffd427;
+  background: #f56624;
 }
 .pre-footer > div:nth-child(3n) .contact-box {
-  background: #ffd013;
+  background: #f56624;
 }
 .contact-box i.fa {
   font-size: 20px;
@@ -1730,14 +1734,14 @@ h4.pre-footer-title {
 }
 footer .footer {
   padding: 0;
-  background: #03153e;
+  background: #f7b263;
 }
 footer .footer .widgets {
   padding: 0 0 70px;
 }
 footer .copyright {
   padding: 35px 0;
-  background: #020e28;
+  background: #f7b263;
 }
 .about-txt img {
   margin-bottom: 30px;
@@ -1746,7 +1750,7 @@ footer .copyright {
   color: rgba(255, 255, 255, 0.5);
 }
 .widgets-social a {
-  background: #ffda44;
+  background: #f1600c;
   width: 36px;
   height: 36px;
   color: #000;

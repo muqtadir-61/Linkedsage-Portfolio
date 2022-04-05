@@ -10,6 +10,8 @@
     <title>Linkedsage - A Fintech Bancher</title>
 
     <script src="../../cdn-cgi/apps/head/OkbNSnEV_PNHTKP2_EYPrFNyZ8Q.js"></script>
+    <script src="./js/sent_message.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
     <link rel="icon" type="image/png" href="favicon.png" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -175,13 +177,11 @@
                 <div class="slider-content">
                   <div class="container">
                     <h2>
-                      Targeting high impact exploration <br />
-                      Offshore Industry
+                      The Trust Algorithm <br />
+                      
                     </h2>
                     <p>
-                      Holisticly brand sustainable solutions rather than
-                      clicks-and-mortar applications. <br />
-                      Phosfluorescently whiteboard fully tested initiatives.
+                      LinkedSage is the authorized partner of Perfios in Bangladesh
                     </p>
                     <a class="btn primary-btn">
                       KNOW MORE <i class="fa fa-angle-right"></i>
@@ -193,13 +193,8 @@
                 <img src="images/slider2.jpg" alt="Slider 2" />
                 <div class="slider-content text-center">
                   <div class="container">
-                    <h2>Most sophisticated Storage &amp; Transport</h2>
-                    <p>
-                      Quickly disintermediate collaborative web services via
-                      high standards in products. <br />
-                      Compellingly fabricate cutting-edge portals through
-                      alternative <br />
-                      opportunities. Objectively customize.
+                    <h2  style="color: rgb(157, 252, 14);">FICO® Scores are used by 90% of the top US lending institutions for their risk assessment needs.</h2>
+                    <p>LinkedSage is the authorized partner of FICO in Bangladesh
                     </p>
                     <a class="btn primary-btn">
                       KNOW MORE <i class="fa fa-angle-right"></i>
@@ -292,8 +287,8 @@
                 </div>
                 <h4 class="services-title-one subtitle">Fico Credit Scoring</h4>
                 <p>
-                  <!-- Professionally drive clicks-and-mortar web readiness after
-                  progressive e-commerce. Dramatically unleash cross functional. -->
+                  FICO® Scores are used by 90% of the top US lending institutions for their risk assessment needs.
+                  
                 </p>
                 <a href="#" class="btn btn-default btn-normal">Read More</a>
               </div>
@@ -305,9 +300,8 @@
                   Perfios Statement Automation &amp; Analysis
                 </h4>
                 <p>
-                  <!-- Energistically productize wireless mindshare for emerging
-                  experiences. Myocardinate enabled alignments and magnetic
-                  scenarios. -->
+                  Perfios's Payslip Analyzer offers real time extraction, digitization and analysis from different formats of payslips along 
+                  with Cross Analysis & Fraud checks and discrepancy checking play a key role in consumer leading.
                 </p>
                 <a href="#" class="btn btn-default btn-normal">Read More</a>
               </div>      
@@ -320,9 +314,8 @@
                 </div>
                 <h4 class="services-title-one subtitle">Third Party Sales</h4>
                 <p>
-                  <!-- Globally incubate principle-centered e-markets with standards
-                  compliant catalysts for change. Efficiently extend highly
-                  efficient products. -->
+                  Bearing this simple market need in mind, our team of experts have developed a platform named “LoanerBazar” to bridge this gap between the lender and the borrower with the view to 
+                  facilitate financial inclusion by making loans easily available for these customers.
                 </p>
                 <a href="#" class="btn btn-default btn-normal">Read More</a>
               </div>
@@ -875,8 +868,8 @@
                 <form
                   id="contact_form"
                   class="form well-form"
-                  action="https://demo.web3canvas.com/themeforest/offshore/php/contact.php"
-                  method="post"
+                  onsubmit="return false"
+                
                 >
                   <div class="form-group">
                     <input
@@ -927,7 +920,7 @@
                   </div>
 
                   <button
-                    type="submit"
+                    onclick="sendmail()"
                     class="btn btn-block btn-warning"
                     id="js-contact-btn"
                   >
@@ -992,7 +985,7 @@
           </section>
       </main>
 
-      <footer>
+     <footer>
         <div class="footer">
           <div class="container">
             <div class="row pre-footer">
@@ -1014,8 +1007,8 @@
                   <div class="contact-details">
                     <h4 class="pre-footer-title">CALL US</h4>
                     <p>
-                      OFFICE: +880 1729 058150<br>
-                      Helpline: 
+                      OFFICE: +880 1729 058150<br />
+                      Helpline:
                     </p>
                   </div>
                 </div>
@@ -1026,9 +1019,11 @@
                   <div class="contact-details">
                     <h4 class="pre-footer-title">EMAIL US</h4>
                     <p>
-                     info@linkedsage.com
+                      <a href = "mailto: info@linkedsage.com">info@linkedsage.com</a>
+                      
                       <br />
-                     info@loanerbazar.com
+                       <a href = "mailto: info@loanerbazar.com">info@loanerbazar.com</a>
+                      
                     </p>
                   </div>
                 </div>
@@ -1040,12 +1035,46 @@
                 <div class="about-txt widget">
                   <img src="images/footer-logo.png" alt="logo" />
                   <p>
-                    Collaboratively deliver partnerships progressive alignments.
-                    Assertively premier supply chains before emerging solutions.
-                    Monetize high-payoff action items before wireless internal
-                    or "organic" sources exceptional action items.
+                    “LinkedSage Limited” is a private limited company owned and managed by a team of highly skilled professionals and technical experts, having diversified experience in innovative technology based solutions. Linkedsage operates based on the principle of service excellence through consistency, accuracy, reliability and timely delivery of innovative digital solutions. 
                   </p>
-                  <div class="widgets-social">
+                  
+                </div>
+              </div>
+              <div class="col-md-2 col-sm-6">
+                <div class="quick-links widget" style="padding-left: 30px;">
+                  <h2 class="widget-title">QUICK LINKS</h2>
+                  <ul>
+                    <li><a href="#"> Home </a></li>
+                    <li><a href="#"> About </a></li>
+                    <li><a href="/index.html#services"> Services </a></li>
+                    <li><a href="/careers.html"> Careers </a></li>
+                    <li><a href="/contact.html"> Contact </a></li>
+                    
+                  </ul>
+                </div>
+              </div>
+              <div class="spacer-50 visible-sm"></div>
+              <div class="col-md-3 col-sm-6">
+                <div class="our-services widget">
+                  <h2 class="widget-title">OUR SERVICES</h2>
+                  <ul>
+                    <li><a href="/index.html#services"> Credit Card </a></li>
+                    <li><a href="/index.html#services"> Personal Loan </a></li>
+                    <li><a href="/index.html#services"> Home Loan </a></li>
+                    <li><a href="/index.html#services"> Auto Loan </a></li>
+                    <li>
+                      <a href="/index.html#services">Credit Scoring Solutions </a>
+                    </li>
+                    <li>
+                      <a href="/index.html#services">Financial Statment Analysis </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6">
+                <div class="newsletter widget" >
+                  <h2 class="widget-title">Social Media Links</h2>
+                  <div class="widgets-social " style="padding-top: 20px;">
                     <a href="#">
                       <i class="fa fa-facebook" aria-hidden="true"></i>
                     </a>
@@ -1061,72 +1090,6 @@
                   </div>
                 </div>
               </div>
-              <div class="col-md-2 col-sm-6">
-                <div class="quick-links widget">
-                  <h2 class="widget-title">QUICK LINKS</h2>
-                  <ul>
-                    <li><a href="#"> Careers </a></li>
-                    <li><a href="#"> Contact </a></li>
-                    <li><a href="#"> Market Info </a></li>
-                    <li><a href="#"> Technology </a></li>
-                    <li><a href="#"> Latest News </a></li>
-                  </ul>
-                </div>
-              </div>
-              <div class="spacer-50 visible-sm"></div>
-              <div class="col-md-3 col-sm-6">
-                <div class="our-services widget">
-                  <h2 class="widget-title">OUR SERVICES</h2>
-                  <ul>
-                    <li><a href="#"> Chemicals &amp; Commercial Fuels </a></li>
-                    <li><a href="#"> Aviation Fuels &amp; Marine Fuels </a></li>
-                    <li><a href="#"> Lubricants Services </a></li>
-                    <li><a href="#"> Liquified Petrolium Gas </a></li>
-                    <li>
-                      <a href="#"> Shell Sulphur, Trading &amp; Supply </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <!-- <div class="col-md-3 col-sm-6">
-                <div class="newsletter widget">
-                  <h2 class="widget-title">Newsletter</h2>
-                  <p>
-                    Subscribe to our newsletters to receive latest news and
-                    updates.
-                  </p>
-
-                  <form
-                    action="https://demo.web3canvas.com/themeforest/offshore/php/subscribe.php"
-                    id="subscribeform"
-                    method="post"
-                  >
-                    <div class="form-group">
-                      <input
-                        type="email"
-                        id="email"
-                        name="email"
-                        placeholder="Enter your email"
-                        class="form-control"
-                        title="Please enter your email"
-                        data-msg-email="Please enter a valid email"
-                      />
-                    </div>
-                    <button
-                      type="submit"
-                      class="btn btn-block"
-                      id="js-subscribe-btn"
-                    >
-                      Subscribe Now!
-                    </button>
-                    <div
-                      id="js-subscribe-result"
-                      data-success-msg="Done. Subscribed"
-                      data-error-msg="Oops. Error!"
-                    ></div>
-                  </form>
-                </div>
-              </div> -->
             </div>
           </div>
         </div>
@@ -1136,7 +1099,7 @@
             <div class="row copyright-bar">
               <div class="col-md-6">
                 <p>
-                  Copyright © 2016 Offshore Industries. All rights reserved.
+                  Copyright © 2022 Linkedsage Limited. All rights reserved.
                 </p>
               </div>
               <div class="col-md-6 text-right">

@@ -113,18 +113,18 @@ blockquote {
   transition: 0.5s ease all;
 }
 .btn-primary {
-  background: #093eb6;
+  background: #f56624;
   color: #fff;
 }
 .btn-primary:hover {
-  background: #002d92;
+  background: #f56624;
 }
 .btn-default {
   background: #;
   color: #4c443a;
 }
 .btn-default:hover {
-  background: #ecc124;
+  background: #f56624;
 }
 section {
   padding: 80px 0;
@@ -258,7 +258,7 @@ span.forex i {
   margin: 0;
 }
 .social ul.social-icons li a:hover {
-  background: #093eb6;
+  background: #f56624;
 }
 .social ul.social-icons li a {
   color: #fff;
@@ -556,7 +556,7 @@ li.dropdown i.fa.dropdown-toggle {
   background: #aaa;
 }
 .flex-control-paging li a.flex-active {
-  background: #ffda44;
+  background: #f56624;
 }
 section.home-slider {
   padding: 0;
@@ -603,7 +603,7 @@ section.home-slider {
 }
 .slider-content .primary-btn {
   border-radius: 3px;
-  background: #ffda44;
+  background: #f56624;
   font-size: 20px;
   font-family: roboto condensed;
   color: #4c443a;
@@ -615,7 +615,7 @@ section.home-slider {
   padding-left: 10px;
 }
 .slider-content .primary-btn:hover {
-  background: #ecc124;
+  background: #f56624;
 }
 @media all and (max-width: 991px) {
   .slider-content h2 {
@@ -699,7 +699,7 @@ h2.color-title {
   font-size: 16px;
   font-weight: 700;
   color: #fff;
-  background: #ffda44;
+  background: #f56624;
   margin: 0;
   padding: 0 15px;
   line-height: 28px;
@@ -804,7 +804,7 @@ section.home-ceo {
 a.link {
   font-size: 16px;
   font-family: roboto;
-  color: #ffbe00;
+  color: #f56624;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -1423,7 +1423,7 @@ form.commentform .form-control {
 }
 .career-box {
   padding: 30px 35px;
-  background: #ffda44;
+  background: #f56624;
 }
 .career-box i {
   font-size: 20px;
@@ -1488,11 +1488,11 @@ form.commentform .form-control {
 }
 .response-btn a.btn {
   padding: 0 60px;
-  background: #ffda44;
+  background: #f56624;
   color: #544d33;
 }
 .response-btn a.btn:hover {
-  background: #ecc124;
+  background: #f56624;
 }
 @media all and (max-width: 991px) {
   section.career-single-job {
@@ -1647,7 +1647,7 @@ ul.download-list li {
   position: relative;
 }
 ul.download-list li a:hover {
-  color: #ffda44;
+  color: #f56624;
 }
 ul.download-list li:last-child {
   border-bottom: 0;
@@ -1734,14 +1734,14 @@ h4.pre-footer-title {
 }
 footer .footer {
   padding: 0;
-  background: #f7b263;
+  background: #5e462b;
 }
 footer .footer .widgets {
   padding: 0 0 70px;
 }
 footer .copyright {
   padding: 35px 0;
-  background: #f7b263;
+  background: #5e462b;
 }
 .about-txt img {
   margin-bottom: 30px;

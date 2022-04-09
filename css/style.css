@@ -120,7 +120,7 @@ blockquote {
   background: #f56624;
 }
 .btn-default {
-  background: #;
+  /* background: #; */
   color: #4c443a;
 }
 .btn-default:hover {
@@ -210,7 +210,7 @@ main.main {
 }
 .top-info h3 {
   font-size: 15px;
-  color: #093eb6;
+  color: #f56624;
   font-weight: 700;
   line-height: 1.2;
   margin-top: 0;
@@ -258,7 +258,8 @@ span.forex i {
   margin: 0;
 }
 .social ul.social-icons li a:hover {
-  background: #f56624;
+  background: rgba(9, 62, 182, 0.65)  ;
+  
 }
 .social ul.social-icons li a {
   color: #fff;
@@ -268,7 +269,7 @@ span.forex i {
   height: 52px;
   line-height: 52px;
   text-align: center;
-  background: rgba(9, 62, 182, 0.65);
+  background: #f56624;
   color: #fff;
   border-radius: 50%;
   margin-right: 15px;
@@ -335,7 +336,7 @@ ul.main-menu li:last-child a {
 }
 ul.main-menu li a:hover,
 ul.main-menu li.active > a {
-  color: #093eb6;
+  color: #f56624;
 }
 ul.main-menu > li {
   display: inline-block;
@@ -707,7 +708,7 @@ h2.color-title {
 h4.subtitle {
   font-size: 20px;
   font-family: roboto;
-  color: #093eb6;
+  color: #5e462b;
   font-weight: 700;
   line-height: 1.4;
   margin: 20px 0;
@@ -876,7 +877,7 @@ section.home-links {
 h2.title-2 {
   font-size: 40px;
   font-family: roboto;
-  color: #093eb6;
+  color: #5e462b;
   font-weight: 700;
   margin: 0;
 }
@@ -925,7 +926,7 @@ section.home-stats {
 .stats-info h4.counter {
   font-size: 36px;
   font-family: roboto;
-  color: #093eb6;
+  color: #5e462b;
   font-weight: 700;
   margin: 0;
   line-height: 1;
@@ -1098,7 +1099,7 @@ section.home-testimonials {
 h4.client-name {
   font-size: 20px;
   font-family: roboto;
-  color: #093eb6;
+  color: #5e462b;
   font-weight: 700;
   line-height: 1.4;
   margin: 10px 0;
@@ -1130,7 +1131,7 @@ section.home-news {
   position: absolute;
   display: block;
   padding: 10px;
-  background: #093eb6;
+  background: #5e462b;
   top: 12px;
   right: 12px;
   z-index: 100;
@@ -1700,13 +1701,13 @@ ul.download-list li span {
 }
 .contact-box {
   padding: 30px 40px;
-  background: #f56624;
+  background: #ffc107;
 }
 .pre-footer > div:nth-child(2n) .contact-box {
-  background: #f56624;
+  background: #ffc107;
 }
 .pre-footer > div:nth-child(3n) .contact-box {
-  background: #f56624;
+  background: #ffc107;
 }
 .contact-box i.fa {
   font-size: 20px;
@@ -1734,14 +1735,14 @@ h4.pre-footer-title {
 }
 footer .footer {
   padding: 0;
-  background: #5e462b;
+  background: #f56624;
 }
 footer .footer .widgets {
   padding: 0 0 70px;
 }
 footer .copyright {
   padding: 35px 0;
-  background: #5e462b;
+  background: #f56624;
 }
 .about-txt img {
   margin-bottom: 30px;
@@ -2000,7 +2001,7 @@ button.btn.btn-warning {
   border: none;
   font-size: 19px;
   font-weight: 700;
-  background: #093eb6;
+  background: #f1600c;
   -webkit-transition: 0.5s ease all;
   -o-transition: 0.5s ease all;
   -moz-transition: 0.5s ease all;

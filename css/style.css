@@ -2002,7 +2002,7 @@ button.btn.btn-warning {
   font-size: 19px;
   font-weight: 700;
   background: #f1600c;
-  -webkit-transition: 0.5s ease all;
+    -webkit-transition: 0.5s ease all;
   -o-transition: 0.5s ease all;
   -moz-transition: 0.5s ease all;
   -ms-transition: 0.5s ease all;

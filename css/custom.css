@@ -19,3 +19,6 @@ section.our-client {
   justify-content: space-around;
   align-items: center;
 }
+section.about-leaders{
+  padding-top: 10px!important;
+}

@@ -480,9 +480,13 @@ li.dropdown i.fa.dropdown-toggle {
 .page-title h2.title {
   margin: 0 0 25px;
   font-size: 50px;
-  color: #fff;
+  color: rgb(3, 2, 2);
+  background-color: rgba(245, 102, 36, 0.50);  
+ backdrop-filter: blur(5px);
+  
   font-weight: 700;
   line-height: 1.26;
+ 
 }
 .page-title p.description {
   font-size: 20px;

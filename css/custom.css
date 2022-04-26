@@ -7,7 +7,7 @@ main.main {
   /* display: flex !important; */
 }
 section.our-client {
-  margin-bottom: 80px !important;
+  margin-bottom: 40px !important;
 }
 .owl-carousel .owl-stage {
   display: flex !important;
@@ -21,4 +21,7 @@ section.our-client {
 }
 section.about-leaders{
   padding-top: 10px!important;
+}
+.contact-form{
+  margin-top: 40px;
 }

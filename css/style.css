@@ -2312,6 +2312,7 @@ section.about-employees {
   display: inline-block;
   border-radius: 50%;
   color: #fff;
+  cursor: pointer;
 }
 .social-links a:last-child {
   margin: 0;
@@ -2841,6 +2842,12 @@ section.services-highlights {
   display: inline-block;
   margin: 0 -1.5px;
 }
+.about-leaders .img-hover-effect ,
+.about-leaders .img-hover-effect img{
+  
+  border-radius: 50%;
+
+}
 .hover-effect:hover img {
   opacity: 0.6;
   transform: scale(1.1);
@@ -3189,4 +3196,11 @@ ul.nav-tabs {
   z-index: 11111;
   height: 100%;
   overflow: hidden;
+}
+.home-company,
+.home-services{
+  padding-bottom: 0 !important;
+}
+.home-services-other{
+  padding-top: 20px !important;
 }

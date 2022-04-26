@@ -129,6 +129,7 @@ blockquote {
 section {
   padding: 80px 0;
 }
+
 .sidebar {
   padding: 80px 15px;
 }
@@ -480,9 +481,13 @@ li.dropdown i.fa.dropdown-toggle {
 .page-title h2.title {
   margin: 0 0 25px;
   font-size: 50px;
-  color: #fff;
+  color: rgb(3, 2, 2);
+  background-color: rgba(245, 102, 36, 0.50);  
+ backdrop-filter: blur(5px);
+  
   font-weight: 700;
   line-height: 1.26;
+ 
 }
 .page-title p.description {
   font-size: 20px;
@@ -584,6 +589,12 @@ section.home-slider {
   left: 0;
   z-index: 5;
   width: 100%;
+}
+.flexslider .slides {
+  
+}
+.flexslider .slides img{
+height: 480px;
 }
 .flexslider .slides > li {
   position: relative;
@@ -2002,7 +2013,7 @@ button.btn.btn-warning {
   font-size: 19px;
   font-weight: 700;
   background: #f1600c;
-  -webkit-transition: 0.5s ease all;
+    -webkit-transition: 0.5s ease all;
   -o-transition: 0.5s ease all;
   -moz-transition: 0.5s ease all;
   -ms-transition: 0.5s ease all;
@@ -2308,6 +2319,7 @@ section.about-employees {
   display: inline-block;
   border-radius: 50%;
   color: #fff;
+  cursor: pointer;
 }
 .social-links a:last-child {
   margin: 0;
@@ -2837,6 +2849,12 @@ section.services-highlights {
   display: inline-block;
   margin: 0 -1.5px;
 }
+.about-leaders .img-hover-effect ,
+.about-leaders .img-hover-effect img{
+  
+  border-radius: 50%;
+
+}
 .hover-effect:hover img {
   opacity: 0.6;
   transform: scale(1.1);
@@ -3185,4 +3203,11 @@ ul.nav-tabs {
   z-index: 11111;
   height: 100%;
   overflow: hidden;
+}
+.home-company,
+.home-services{
+  padding-bottom: 0 !important;
+}
+.home-services-other{
+  padding-top: 20px !important;
 }

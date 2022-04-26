@@ -1740,26 +1740,26 @@ h4.pre-footer-title {
 .contact-details p {
   font-size: 16px;
   font-family: roboto;
-  color: rgba(0, 0, 0, 0.8);
+  color: rgba(4, 4, 4, 0.5);
   line-height: 1.5;
   margin-bottom: 0;
 }
 footer .footer {
   padding: 0;
-  background: #f56624;
+  background: #B2BEB5;
 }
 footer .footer .widgets {
   padding: 0 0 70px;
 }
 footer .copyright {
   padding: 35px 0;
-  background: #f56624;
+  background: #B2BEB5;
 }
 .about-txt img {
   margin-bottom: 30px;
 }
 .about-txt p {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(4, 4, 4, 0.5);
 }
 .widgets-social a {
   background: #f1600c;
